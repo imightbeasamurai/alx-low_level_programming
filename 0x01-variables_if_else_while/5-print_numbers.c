@@ -14,5 +14,6 @@ int main(void)
 		putchar(n);
 		n++;
 	}
+	puchat('\n');
 	return (0);
 }
