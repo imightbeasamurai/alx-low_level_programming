@@ -4,9 +4,11 @@
  * main - print from a to z
  * Return: 0
  */
-int main()
+int main(void)
 {
-	int a = 97;
+	int a; 
+	
+	a = 97;
 	while (a < 123)
 	{
 		putchar(a);
