@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * main - prints a to z then A to Z then \n
+ * Return: 0
+ */
 int main(void)
 {
 	int a;
