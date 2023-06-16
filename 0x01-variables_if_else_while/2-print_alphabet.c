@@ -12,5 +12,6 @@ int main()
 		putchar(a);
 		a = a + 1;
 	}
+	putchar('\n');
 	return (0);
 }
