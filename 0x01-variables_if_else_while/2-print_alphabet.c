@@ -7,7 +7,6 @@
 int main()
 {
 	int a = 97;
-	int i = 0;
 	while (a < 123)
 	{
 		putchar(a);
