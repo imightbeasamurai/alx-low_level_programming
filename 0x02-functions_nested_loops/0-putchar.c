@@ -5,16 +5,16 @@
  * main - prints a char by char with a loop
  * Return: 0
  */
-int main()
+int main(void)
 {
-	int len;
-	char quote[9];
-	int index;
-
-	index = 0;
-	quote = "_putchar"
-	len = strlen(quote);
-	while (i < len)
-		putchar(quote[i]);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
