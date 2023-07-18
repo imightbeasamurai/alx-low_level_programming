@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /**
- * struct dog - Struct dog
+ * struct dog - struct
  * @name: char *
  * @age: float
  * @owner:  char *
@@ -11,7 +11,7 @@
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d == NULL)
-		return ;
+		return;
 
 	else
 	{
