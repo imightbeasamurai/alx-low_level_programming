@@ -6,10 +6,10 @@
 #include <string.h>
 
 /**
- * struct op - struct op
+ * struct op - Struct op
  *
- * @op: operator
- * @f: function
+ * @op: The operator
+ * @f: The function associated
  */
 typedef struct op
 {
@@ -25,3 +25,4 @@ int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
 
 #endif
+
