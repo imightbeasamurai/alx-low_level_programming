@@ -2,48 +2,48 @@
 
 /**
  * op_add - calculates sum
- * @a: integer
- * @b: integer
+ * @a: int
+ * @b: int
  *
  * Return: sum of a and b
  */
-int add_op(int a, int b)
+int op_add(int a, int b)
 {
 	return (a + b);
 }
 
 /**
  * op_sub - calculates difference
- * @a: integer
- * @b: integer
+ * @a: int
+ * @b: int
  *
- * Return: difference
+ * Return: difference of a and b
  */
-int sub_op(int a, int b)
+int op_sub(int a, int b)
 {
 	return (a - b);
 }
 
 /**
  * op_mul - calculates product
- * @a: integer
- * @b: integer
+ * @a: int
+ * @b: int
  *
  * Return: product of a and b
  */
-int mul_op(int a, int b)
+int op_mul(int a, int b)
 {
 	return (a * b);
 }
 
 /**
  * op_div - calculates division
- * @a: integer
- * @b: integer
+ * @a: int
+ * @b: int
  *
- * Return: division of int
+ * Return: result of the division of a and b
  */
-int div_op(int a, int b)
+int op_div(int a, int b)
 {
 	return (a / b);
 }
@@ -53,10 +53,9 @@ int div_op(int a, int b)
  * @a: int
  * @b: int
  *
- * Return: remainder of int
+ * Return: remainder of a divided b
  */
-int mod_op(int a, int b)
+int op_mod(int a, int b)
 {
 	return (a % b);
 }
-
