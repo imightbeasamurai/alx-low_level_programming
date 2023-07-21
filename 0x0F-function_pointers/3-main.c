@@ -4,6 +4,7 @@
  * main - program that do operations
  * @argc: int
  * @argv: char *
+ *
  * Return: 0
  */
 int main(int ac, char *av[])
