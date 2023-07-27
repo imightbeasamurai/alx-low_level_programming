@@ -5,9 +5,9 @@
  * @h: const list_t *h
  * Return: size_t
  */
-size_t print_list(const list_t *h);
+size_t print_list(const list_t *h)
 {
-	size_t	i;
+	size_t i;
 
 	i = 0;
 	while (h != NULL)
@@ -21,4 +21,3 @@ size_t print_list(const list_t *h);
 	}
 	return (i);
 }
-
